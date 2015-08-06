@@ -1,0 +1,68 @@
+Instrucciones: 
+Generar una carpeta por cada ejercicio, al final comprimirla y subir dicho archivo (tamaño menor a 2mb) a ...En 
+
+http://172.16.0.167/basura/kema/transferencia/
+
+Colocar en el input que dice Nombre de Archivo, su nombre suyo de ustedes Completo.     
+
+
+1.- Animar una seccion de tamaño ancho = 60% de fondo rgba(199,200,240,0.6) a un tamaño de ancho = 80% con una transparencia de 0.3..... cuando se presione un boton ....
+
+2.- Utilizar el evento slideToggle para animar una imagen (ocultar y mostrar) a traves de un evento keypress() / mouseover() o de perdis click() sobre un div con fondo rojo.
+
+3.- Cambiar los atributos siguientes de una caja a traves de la funcion .css de jquery, ademas agregar texto delante de la caja y antes de la caja (NO UTILIZAR LA FUNCION .text() ni .html() no sirven pa' nada) ... Los valores de los atributos son a su consideracion (Que se vea bonito nadamas)
+Con un evento:....El que sea... menos document.load, $(document).ready() , $(function(){});
+
+body
+{
+    margin: 5% 0;
+    width: 90%;   
+}
+
+#cajaParaCambiarDeAtributos
+{
+    background: #DDAACC;
+    color: rgba(0,0,0);
+    font-size: 49px;
+    text-shadow: 0px 5px 0px red;
+    position: relative;
+        left: -100px;
+        top: 100px;
+    width: 80%;
+}
+
+
+4.-
+Utilizar el evento .hover(), para:
+1: Cuando el mouse entre sobre la caja: Se produzca un cambio en las propiedades de dicha caja:
+2: Al salir de la misma regresar a sus propiedades originales.
+
+Propiedades de la caja :
+Tamaño de ancho 300px y largo del mismo tamaño
+Contenido de la caja un parrafo de tamaño 12 de color 140,200,100  con transperencia 0.8, el fondo de la caja color 120,100,120, con transparencia 0.3, de relleno 10px a los lados y arriba abajo de 15px, margen no interesa , lo que interesa es que la caja este en el centro de la pagina. Los cambios en las propiedades son a su consideracion :) ...
+
+
+5.-Se tienen dos cajas (div, article, section ...)
+Usar "expote" para reventar una de las caja al dar doble click sobre la caja 2. en un tiempo de 10s.
+
+Al pasar el puntero sebre la caja 1, la caja dos rebotara 5 veces. en un tiempo de 3s.
+
+
+
+6. Selectores. 
+Crear una lista desordenada de 10 elementos. 3 botones y nadamas.
+Para cada boton.
+1: Al dar click en el boton1, cambiar el fondo de los elementos pares de la lista.
+ul li:selectorPar
+
+2. Al dar click en el boton2 cambiar el color de las letras de los elementos 1,4,7... En base a la funcion (3n +1 )
+ul li: SelectorHijos(3n+1)
+
+3. Al dar click en el boton3 cambiar el tamaño de las letras de los elementos, primero y ultimo de la lista.
+ul li:selectorPrimero
+
+ul li:selectorUltimo
+
+
+
+
